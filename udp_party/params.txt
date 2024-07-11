@@ -1,0 +1,7 @@
+For server:
+./udp_party.o -port 60000 -key alice.key -pwd alice.com -cert alice.crt -root rootCA.crt -peer Bob.com
+
+
+For client:
+./udp_party.o -ip 127.0.0.1 -port 60000 -key bob.key -pwd bob.com -cert bob.crt -root rootCA.crt -peer Alice.com
+
